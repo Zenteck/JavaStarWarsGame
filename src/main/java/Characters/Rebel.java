@@ -10,7 +10,7 @@ public class Rebel extends PlayerCharacter implements IAttack{
     public Rebel(String name) {
         super(name);
         this.weapon = new Blaster();
-//        this.equipment = new ThermalDetonator;
+        this.equipment = new ThermalDetonator;
     }
 
 

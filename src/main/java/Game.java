@@ -1,6 +1,7 @@
 import Behaviours.ILoseHealth;
 import Characters.PlayerCharacter;
 import Monster.Monster;
+import Planets.Planet;
 
 import java.util.ArrayList;
 
@@ -8,7 +9,7 @@ public class Game {
 
     private ArrayList<PlayerCharacter> players;
     private ArrayList<Monster> monsters;
-//    private Planet planet;
+    private Planet planet;
 
     public Game(){
         this.players = new ArrayList<>();
